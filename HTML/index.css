@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-body img{
+    width: 1200px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 20px;
+    margin: 0px;
+}.nav a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+
+}.nav a:hover{
+    color: yellow;
+}.lower-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}.lower-body h2{
+    padding: 10px;
+    /* margin: 10px; */
+}.lower-body button{
+    margin: 10px;
+    padding: 15px 100px;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}.lower-body h2,h4{
+    color: rgb(44, 41, 41);
+}
